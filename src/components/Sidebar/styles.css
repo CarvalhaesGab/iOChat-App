@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sideBarContainerPrincipal{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    margin-left: 91px;
+}
+
+.sideBar {
+    width: 60%;
+    height: 925px;
+    max-width: 268px;
+    min-width: 268px;
+    background-color: white;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
+    display: flex;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    overflow: hidden;
+}
